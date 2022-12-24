@@ -21,13 +21,11 @@
     <id>internal.repo</id>
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/myartifacts/</url>
-  </repository>
-  <repository>
     <id>releases</id>
+          <name>Releases repo</name>
           <url>http://54.173.143.55:8081/repository/maven-releases/</url>
-  </repository>
-  <repository>
     <id>snapshots</id>
+         <name>Snapshot repo</name>
          <url>http://54.173.143.55:8081/repository/maven-snapshots/</url>
   </repository>
 </distributionManagement>

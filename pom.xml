@@ -22,11 +22,11 @@
           <name>Releases repo</name>
           <url>http://54.173.143.55:8081/repository/maven-releases/</url>
     </repository>
-    <Snapshot_repository>
+    <snapshotrepository>
     <id>snapshots</id>
          <name>Snapshot repo</name>
          <url>http://54.173.143.55:8081/repository/maven-snapshots/</url>
-  </Snapshot_repository>
+  </snapshotrepository>
 </distributionManagement>
 
   <dependencies>
